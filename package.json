@@ -4,7 +4,7 @@
   "description": "fullstack app with postgreSQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,11 @@
   "homepage": "https://github.com/Imashi2000/Weather_postgre#readme",
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "nodeman": "^1.1.2"
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.1.0"
   },
   "dependencies": {
+    "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
     "express": "^4.19.2",
     "pg": "^8.11.5"
