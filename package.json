@@ -1,0 +1,31 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "fullstack app with postgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imashi2000/Weather_postgre.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "imashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imashi2000/Weather_postgre/issues"
+  },
+  "homepage": "https://github.com/Imashi2000/Weather_postgre#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodeman": "^1.1.2"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
